@@ -4,7 +4,7 @@ from datetime import datetime
 
 # ------------------ Weather Fetch Function ------------------
 def get_weather():
-    api_key = "eef593ec010456bb052f069703c04ace"  # Replace with your API key
+    api_key = ""YOUR_API_KEY" "  # Replace with Your Weather forcasting API Key 
     city = city_entry.get().strip()
 
     if not city or city.lower() == "enter city name":
